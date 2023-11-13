@@ -13,7 +13,7 @@ if you want to run the code you must :
 - npm run dev (required)
 - php artisan serve (required) 
 
-nb: text the command in your terminal 
+nb: put it in your terminal 
 
 
 
