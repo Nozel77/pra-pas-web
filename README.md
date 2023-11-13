@@ -11,7 +11,8 @@
 
 if you want to run the code you must :
 - npm run dev (required)
-- php artisan serve (required) <br/>
+- php artisan serve (required) 
+
 nb: text the command in your terminal 
 
 
