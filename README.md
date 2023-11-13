@@ -11,8 +11,9 @@
 
 if you want to run the code you must :
 - npm run dev (required)
-- php artisan serve (required)
+- php artisan serve (required) <br/>
 nb: text the command in your terminal 
+
 
 
 ## Learning Laravel
