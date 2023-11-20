@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FavoriteController;
+use App\Http\Controllers\OngoingController;
 use App\Http\Controllers\PopularController;
 use Illuminate\Support\Facades\Route;
 
@@ -23,3 +24,6 @@ Route::get('favorite/detail{favorite}', [FavoriteController::class, 'detailFavor
 
 Route::get('popular', [PopularController::class, 'index']);
 Route::get('popular/detail{popular}', [PopularController::class, 'detailPopular']);
+
+Route::get('ongoing', [OngoingController::class, 'index']);
+Route::get('ongoing/detail{ongoing}', [OngoingController::class, 'detailOngoing']);
